@@ -1,15 +1,58 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="jzAnl66G6GJoUa1EL79NtQZni80ubEuLvnkHjZirmSk" />
   <meta charset="UTF-8">
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="jzAnl66G6GJoUa1EL79NtQZni80ubEuLvnkHjZirmSk" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Surendar Singh Kotra | Shift Manager</title>
+  <!-- SEO Title -->
+  <title>Surendar Singh Kotra | Shift Manager | Steel Plant & CCM Professional</title>
 
+  <!-- SEO Description -->
   <meta name="description"
-        content="Surendar Singh Kotra - Shift Manager in Steel Plant, CCM Department, with 11 years of experience.">
+        content="Official professional profile of Surendar Singh Kotra, Shift Manager in the Steel Plant CCM Department with 11 years of professional experience in steel and continuous casting operations.">
+
+  <meta name="author" content="Surendar Singh Kotra">
+
+  <!-- Canonical URL -->
+  <link rel="canonical"
+        href="https://surendarsinghkotra-beep.github.io/Surendar-singh-kotra/">
+
+  <!-- Open Graph -->
+  <meta property="og:title"
+        content="Surendar Singh Kotra | Steel Plant & CCM Professional">
+
+  <meta property="og:description"
+        content="Professional profile of Surendar Singh Kotra, Shift Manager with 11 years of experience in Steel Plant and CCM operations.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url"
+        content="https://surendarsinghkotra-beep.github.io/Surendar-singh-kotra/">
+
+  <!-- Structured Data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Surendar Singh Kotra",
+    "url": "https://surendarsinghkotra-beep.github.io/Surendar-singh-kotra/",
+    "jobTitle": "Shift Manager",
+    "description": "Shift Manager with 11 years of professional experience in Steel Plant and Continuous Casting operations.",
+    "knowsAbout": [
+      "Steel Plant Operations",
+      "Continuous Casting",
+      "CCM Operations",
+      "Shift Management",
+      "Production Coordination",
+      "Team Management",
+      "Safety Management"
+    ]
+  }
+  </script>
 
   <style>
     * {
@@ -18,76 +61,163 @@
       padding: 0;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-      font-family: Arial, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       background: #f4f6f8;
       color: #222;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     header {
-      background: #111827;
+      background: linear-gradient(135deg, #111827, #1f2937);
       color: white;
       text-align: center;
-      padding: 70px 20px;
+      padding: 80px 20px;
     }
 
     header h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
+      font-size: 46px;
+      margin-bottom: 12px;
     }
 
     header p {
       font-size: 20px;
       color: #d1d5db;
+      margin-bottom: 25px;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #111827;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 950px;
       margin: auto;
-      padding: 30px 20px;
+      padding: 35px 20px;
     }
 
     .card {
       background: white;
-      padding: 30px;
+      padding: 35px;
       margin-bottom: 25px;
       border-radius: 15px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.07);
     }
 
     h2 {
       color: #111827;
-      margin-bottom: 15px;
+      font-size: 28px;
+      margin-bottom: 18px;
     }
 
-    .info {
+    h3 {
+      color: #1f2937;
+      margin-bottom: 8px;
+    }
+
+    .profile-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 15px;
+      margin-top: 20px;
     }
 
-    .info div {
+    .profile-item {
       background: #f3f4f6;
-      padding: 15px;
+      padding: 18px;
       border-radius: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: #eef2ff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .contact-box {
+      background: #f3f4f6;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    .contact-box a {
+      color: #111827;
+      font-weight: bold;
+      text-decoration: none;
     }
 
     footer {
       background: #111827;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 25px 20px;
       margin-top: 30px;
     }
 
+    footer p {
+      margin: 5px 0;
+    }
+
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 30px;
+
+      header {
+        padding: 60px 15px;
       }
 
-      .info {
+      header h1 {
+        font-size: 32px;
+      }
+
+      header p {
+        font-size: 17px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 7px;
+        font-size: 14px;
+      }
+
+      .profile-grid {
         grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 25px 20px;
+      }
+
+      h2 {
+        font-size: 24px;
       }
     }
   </style>
@@ -95,88 +225,200 @@
 
 <body>
 
+  <!-- Header -->
   <header>
     <h1>Surendar Singh Kotra</h1>
-    <p>Shift Manager | CCM Department | Steel Plant</p>
+
+    <p>
+      Shift Manager | Steel Plant | CCM Department | 11 Years Experience
+    </p>
   </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#profile">Profile</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
   <main class="container">
 
-    <section class="card">
-      <h2>About Me</h2>
+    <!-- About -->
+    <section id="about" class="card">
+      <h2>About Surendar Singh Kotra</h2>
+
       <p>
-        I am Surendar Singh Kotra, working as a Shift Manager
-        in the CCM Department of a Steel Plant.
-        I have 11 years of professional experience in the steel industry.
+        Welcome to the official professional website of
+        <strong>Surendar Singh Kotra</strong>.
+      </p>
+
+      <p>
+        I am a <strong>Shift Manager</strong> working in the
+        <strong>Steel Plant CCM Department</strong>, with
+        <strong>11 years of professional experience</strong>
+        in the steel industry.
+      </p>
+
+      <p>
+        My professional experience includes steel plant operations,
+        Continuous Casting Machine (CCM) operations, shift management,
+        production coordination, team management and operational safety.
       </p>
     </section>
 
-    <section class="card">
+    <!-- Professional Profile -->
+    <section id="profile" class="card">
       <h2>Professional Profile</h2>
 
-      <div class="info">
-        <div>
+      <div class="profile-grid">
+
+        <div class="profile-item">
           <strong>Name</strong><br>
           Surendar Singh Kotra
         </div>
 
-        <div>
+        <div class="profile-item">
           <strong>Position</strong><br>
           Shift Manager
         </div>
 
-        <div>
+        <div class="profile-item">
           <strong>Department</strong><br>
           CCM Department
         </div>
 
-        <div>
+        <div class="profile-item">
           <strong>Industry</strong><br>
           Steel Plant
         </div>
 
-        <div>
+        <div class="profile-item">
           <strong>Experience</strong><br>
           11 Years
         </div>
 
-        <div>
+        <div class="profile-item">
           <strong>Professional Field</strong><br>
           Steel & Continuous Casting
         </div>
+
       </div>
     </section>
 
-    <section class="card">
-      <h2>Experience</h2>
+    <!-- Experience -->
+    <section id="experience" class="card">
+      <h2>Professional Experience</h2>
+
+      <h3>Shift Manager – CCM Department</h3>
 
       <p>
-        <strong>Shift Manager – CCM Department</strong>
+        <strong>11 Years of Professional Experience</strong>
+        in the steel plant industry.
       </p>
 
       <p>
-        11 years of experience in the steel plant industry,
-        with professional experience related to Continuous Casting Machine operations.
+        Experienced in Continuous Casting Machine operations,
+        shift management, production coordination, team supervision,
+        operational safety and steel plant process management.
+      </p>
+
+      <h3 style="margin-top:25px;">
+        Areas of Professional Experience
+      </h3>
+
+      <ul style="margin-left:20px; margin-top:10px;">
+        <li>Continuous Casting Machine (CCM) Operations</li>
+        <li>Steel Plant Shift Operations</li>
+        <li>Production Coordination</li>
+        <li>Shift Management</li>
+        <li>Team Supervision</li>
+        <li>Operational Safety</li>
+        <li>Process Coordination</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card">
+      <h2>Professional Skills</h2>
+
+      <div class="skills">
+
+        <div class="skill">Shift Management</div>
+
+        <div class="skill">CCM Operations</div>
+
+        <div class="skill">Steel Plant Operations</div>
+
+        <div class="skill">Continuous Casting</div>
+
+        <div class="skill">Team Management</div>
+
+        <div class="skill">Production Coordination</div>
+
+        <div class="skill">Safety Management</div>
+
+        <div class="skill">Process Coordination</div>
+
+      </div>
+    </section>
+
+    <!-- Career -->
+    <section class="card">
+      <h2>Career Profile</h2>
+
+      <p>
+        Surendar Singh Kotra is a steel industry professional with
+        11 years of experience and professional knowledge related to
+        Steel Plant operations and Continuous Casting Machine (CCM)
+        operations.
+      </p>
+
+      <p style="margin-top:15px;">
+        This website provides a professional overview of my experience,
+        skills and career profile.
       </p>
     </section>
 
-    <section class="card">
-      <h2>Skills</h2>
+    <!-- Contact -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
 
       <p>
-        • Shift Management<br>
-        • CCM Operations<br>
-        • Steel Plant Operations<br>
-        • Team Management<br>
-        • Production Coordination<br>
-        • Safety & Operational Management
+        For professional communication and career-related opportunities,
+        please use the contact details below.
       </p>
+
+      <div class="contact-box">
+        <strong>Professional Name:</strong><br>
+        Surendar Singh Kotra
+      </div>
+
+      <div class="contact-box">
+        <strong>Professional Role:</strong><br>
+        Shift Manager – Steel Plant CCM Department
+      </div>
+
+      <!-- अपना email हो तो नीचे डालें -->
+      <!--
+      <div class="contact-box">
+        <strong>Email:</strong><br>
+        <a href="mailto:YOUR-EMAIL@example.com">
+          YOUR-EMAIL@example.com
+        </a>
+      </div>
+      -->
+
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer>
-    © 2026 Surendar Singh Kotra
+    <p><strong>Surendar Singh Kotra</strong></p>
+    <p>Shift Manager | Steel Plant | CCM Department</p>
+    <p>© 2026 Surendar Singh Kotra. All Rights Reserved.</p>
   </footer>
 
 </body>
