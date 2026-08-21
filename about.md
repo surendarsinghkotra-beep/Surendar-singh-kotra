@@ -1,17 +1,24 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
 # About Surendar Singh Kotra
 
-Surendar Singh Kotra is a Shift Manager with 11 years of professional
-experience in the Steel Plant industry and Continuous Casting Machine (CCM)
-Department.
+Surendar Singh Kotra is a Mechanical Engineer working in the Steel Plant CCM (Continuous Casting Machine) Department with 11 years of professional experience.
 
-His professional experience includes CCM operations, shift management,
-production coordination, team management, process coordination and
-operational safety.
+He has experience in steel plant operations, continuous casting processes, mechanical systems, and industrial work.
 
-## Professional Website
+## Professional Experience
 
-https://surendarsinghkotra-beep.github.io/Surendar-singh-kotra/
+- 11 years of experience in the steel industry
+- Mechanical Engineering
+- Continuous Casting Machine (CCM)
+- Steel Plant Operations
+- Mechanical Maintenance
+- Industrial Safety
 
-## LinkedIn
+## Official Website
 
-https://www.linkedin.com/in/surendar-singh-kotra-9aa735161
+This is the official personal website of Surendar Singh Kotra.
